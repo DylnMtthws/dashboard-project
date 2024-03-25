@@ -16,7 +16,7 @@ import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutl
 import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
-
+import JoinInnerIcon from "@mui/icons-material/JoinInner";
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
@@ -77,10 +77,18 @@ const Sidebar = () => {
                 display="flex"
                 justifyContent="space-between"
                 alignItems="center"
-                ml="15px"
+                // ml="10px"
               >
-                <Typography variant="h3" color={colors.grey[100]}>
-                  CMD Centr
+                <Typography
+                  variant="h1"
+                  color={colors.greenAccent[500]}
+                  sx={{ display: "flex", alignItems: "center" }}
+                >
+                  <JoinInnerIcon
+                    style={{ marginRight: 10 }}
+                    fontSize="inherit"
+                  />
+                  Centr
                 </Typography>
 
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
