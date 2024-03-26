@@ -20,7 +20,7 @@
 -->
 
 
-[LinkedIn][linkedin-shield][[https://www.linkedin.com/in/dylnmtthws]
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/dylnmtthws]
 
 
 
