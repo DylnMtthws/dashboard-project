@@ -31,14 +31,11 @@
   <a href="https://github.com/DylnMtthws/dashboard-project">
     <img src="images/logo.png" alt="Logo" width="186" height="70">
   </a>
-
 <h3 align="center">Centr - Admin Dashboard</h3>
-
   <p align="center">
     <br />
     <br />
-    <a href="https://dashboard-project-plum.vercel.app/">View Demo</a>
-    
+    <a href="https://dashboard-project-plum.vercel.app/">View Demo</a> 
   </p>
 </div>
 
