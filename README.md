@@ -37,8 +37,6 @@
   <p align="center">
     Centr is an admin facing business dashboard, complete with data visualizations and internal team management. 
     <br />
-    <a href="https://github.com/DylnMtthws/dashboard-project"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
     
