@@ -15,12 +15,13 @@ const FAQ = () => {
       <Header title="FAQ" subtitle="Frequently Asked Questions Page" />
 
       <Accordion style={{ marginBottom: "20px" }}>
-        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography color={colors.greenAccent[500]} variant="h5">
-            An Important Question
-          </Typography>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          sx={{ backgroundColor: colors.primary[400] }}
+        >
+          <Typography variant="h5">An Important Question</Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails sx={{ backgroundColor: colors.primary[400] }}>
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -28,12 +29,13 @@ const FAQ = () => {
         </AccordionDetails>
       </Accordion>
       <Accordion style={{ marginBottom: "20px" }}>
-        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography color={colors.greenAccent[500]} variant="h5">
-            Another Important Question
-          </Typography>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          sx={{ backgroundColor: colors.primary[400] }}
+        >
+          <Typography variant="h5">Another Important Question</Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails sx={{ backgroundColor: colors.primary[400] }}>
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -41,12 +43,13 @@ const FAQ = () => {
         </AccordionDetails>
       </Accordion>
       <Accordion style={{ marginBottom: "20px" }}>
-        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography color={colors.greenAccent[500]} variant="h5">
-            Your Favorite Question
-          </Typography>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          sx={{ backgroundColor: colors.primary[400] }}
+        >
+          <Typography variant="h5">Your Favorite Question</Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails sx={{ backgroundColor: colors.primary[400] }}>
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -54,12 +57,13 @@ const FAQ = () => {
         </AccordionDetails>
       </Accordion>
       <Accordion style={{ marginBottom: "20px" }}>
-        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography color={colors.greenAccent[500]} variant="h5">
-            Some Random Question
-          </Typography>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          sx={{ backgroundColor: colors.primary[400] }}
+        >
+          <Typography variant="h5">Some Random Question</Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails sx={{ backgroundColor: colors.primary[400] }}>
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -67,12 +71,13 @@ const FAQ = () => {
         </AccordionDetails>
       </Accordion>
       <Accordion style={{ marginBottom: "20px" }}>
-        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography color={colors.greenAccent[500]} variant="h5">
-            The Final Question
-          </Typography>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          sx={{ backgroundColor: colors.primary[400] }}
+        >
+          <Typography variant="h5">The Final Question</Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails sx={{ backgroundColor: colors.primary[400] }}>
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
