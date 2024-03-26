@@ -67,13 +67,13 @@ const Calendar = () => {
                 <ListItem
                   key={event.id}
                   sx={{
-                    backgroundColor: colors.greenAccent[500],
+                    backgroundColor: colors.greenAccent[700],
                     margin: "10px 0",
                     borderRadius: "2px",
                   }}
                 >
                   <ListItemText
-                    sx={{ color: colors.primary[900] }}
+                    sx={{ color: "white" }}
                     primary={event.title}
                     secondary={
                       <Typography>
