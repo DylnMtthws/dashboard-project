@@ -53,10 +53,10 @@
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
-    </li>
     
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>   
+  <ul><a href="#license">License</a></ul>
+  <ul><a href="#contact">Contact</a></ul>   
+    </li>
  </ol>
 </details>
 
