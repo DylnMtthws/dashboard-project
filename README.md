@@ -20,7 +20,8 @@
 -->
 
 
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/dylnmtthws]
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dylnmtthws)
+
 
 
 
