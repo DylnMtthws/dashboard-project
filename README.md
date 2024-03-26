@@ -38,7 +38,7 @@
     Centr is an admin facing business dashboard, complete with data visualizations and internal team management. 
     <br />
     <br />
-    <a href="[https://github.com/github_username/repo_name](https://dashboard-project-plum.vercel.app/)">View Demo</a>
+    <a href="[https://dashboard-project-plum.vercel.app/]">View Demo</a>
     
   </p>
 </div>
