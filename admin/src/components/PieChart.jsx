@@ -19,6 +19,7 @@ const PieChart = () => {
           legend: {
             text: {
               fill: colors.grey[100],
+              fontSize: "20px", // Double the default font size
             },
           },
           ticks: {
@@ -28,12 +29,19 @@ const PieChart = () => {
             },
             text: {
               fill: colors.grey[100],
+              fontSize: "20px", // Double the default font size
             },
           },
         },
         legends: {
           text: {
             fill: colors.grey[100],
+            fontSize: "20px", // Double the default font size
+          },
+        },
+        labels: {
+          text: {
+            fontSize: "20px", // Double the default font size for arc labels
           },
         },
       }}
@@ -55,7 +63,7 @@ const PieChart = () => {
       arcLabelsSkipAngle={7}
       arcLabelsTextColor={{
         from: "color",
-        modifiers: [["darker", 2]],
+        modifiers: [["lighter", 2]],
       }}
       defs={[
         {
@@ -77,31 +85,7 @@ const PieChart = () => {
           spacing: 10,
         },
       ]}
-      legends={[
-        {
-          anchor: "bottom",
-          direction: "row",
-          justify: false,
-          translateX: 0,
-          translateY: 56,
-          itemsSpacing: 0,
-          itemWidth: 100,
-          itemHeight: 18,
-          itemTextColor: "#999",
-          itemDirection: "left-to-right",
-          itemOpacity: 1,
-          symbolSize: 18,
-          symbolShape: "circle",
-          effects: [
-            {
-              on: "hover",
-              style: {
-                itemTextColor: "#000",
-              },
-            },
-          ],
-        },
-      ]}
+      legends={[]}
     />
   );
 };
