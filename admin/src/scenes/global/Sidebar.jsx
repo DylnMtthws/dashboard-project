@@ -120,7 +120,7 @@ const Sidebar = () => {
                   Mark
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
-                  Analyst
+                  Senior Analyst
                 </Typography>
               </Box>
             </Box>
